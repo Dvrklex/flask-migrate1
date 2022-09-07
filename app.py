@@ -1,5 +1,4 @@
 from enum import unique
-
 from flask import Flask, flash, render_template, redirect, url_for,request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import ForeignKey
